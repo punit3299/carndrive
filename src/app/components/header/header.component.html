@@ -3,7 +3,7 @@
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <img src="assets/images/logo.png" class="w-48">
         </a>
-        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <nav class="lg:block hidden md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <div class="flex items-center justify-center">
                 <div class="flex border-2 rounded-xl">
                     <input type="text" class="px-4 py-2 md:w-80 w-48">
@@ -18,13 +18,35 @@
                 </div>
             </div>
         </nav>
-        <button class="inline-flex items-center border-2 py-1 px-2 rounded-xl text-base mt-4 md:mt-0 mx-1 login-button">
-            Login
+        <div>
+            <a class="inline-block border-2 py-1 px-2 rounded-xl text-base mt-4 md:mt-0 mx-1 login-button">
+                Login
+            </a>
+            <a
+                class="inline-block  border-2 py-1 px-2 rounded-xl text-base mt-4 md:mt-0 mx-3 text-white register-button">
+                Register
+            </a>
+        </div>
+        <div class="hidden lg:block">
+            <img src="assets/images/user.png" width="50" height="60">
+        </div>
+    </div>
+    <div class="block lg:hidden">
+        <button class="flex items-center px-3 py-2 border rounded text-green green-border mx-auto" onclick="myFunction()">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
         </button>
-        <button
-            class="inline-flex items-center border-2 py-1 px-2 rounded-xl text-base mt-4 md:mt-0 mx-3 text-white register-button">
-            Register
-        </button>
-        <img src="assets/images/user.png" width="50" height="60">
+    </div>
+    <div class="lg:block hidden" id="nav">
+        <div class="flex flex-wrap background-green text-center text-white font-bold py-2">
+            <div class="md:w-1/6 w-full">New Cars</div>
+            <div class="md:w-1/6 w-full">User Cars</div>
+            <div class="md:w-1/6 w-full">Upcoming Cars</div>
+            <div class="md:w-1/6 w-full">Compare Cars</div>
+            <div class="md:w-1/6 w-full">Insurance</div>
+            <div class="md:w-1/6 w-full">Blogs</div>
+        </div>
     </div>
 </header>
