@@ -5,100 +5,12 @@
         <div class="px-2">Just Launched Caes</div>
         <div class="px-2">Upcoming Cars</div>
     </div>
-    <div class="container mx-auto flex md:flex-row flex-col items-center">
+    <div class="container mx-auto flex md:flex-row flex-col items-center w-full border-2">
         <div class="flex flex-wrap shadow-2xl rounded-xl green-border border-2 p-4">
-            <div class="md:w-1/5 w-1/2 p-3">
+            <div *ngFor="let number of [0,1,2,3,4]" class="md:w-1/5 w-1/2 p-3">
                 <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
                     <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                    <div class="px-6 py-4 -mb-2">
-                        <div class="font-bold text-xl mb-2 text-green">Tata Nexon</div>
-                        <p class="text-gray-700 font-bold">
-                            INR 8.25 Lakhs
-                        </p>
-                        <p class="text-gray-700 text-xs">
-                            Ex-Showroom, India
-                        </p>
-                        <p class="text-gray-700 text-xs">
-                            Get On-road price, Noida
-                        </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                        <button
-                            class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 green-border">Explore
-                            Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="md:w-1/5 w-1/2 p-3">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
-                    <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                    <div class="px-6 py-4 -mb-2">
-                        <div class="font-bold text-xl mb-2 text-green">Tata Nexon</div>
-                        <p class="text-gray-700 font-bold">
-                            INR 8.25 Lakhs
-                        </p>
-                        <p class="text-gray-700 text-xs">
-                            Ex-Showroom, India
-                        </p>
-                        <p class="text-gray-700 text-xs">
-                            Get On-road price, Noida
-                        </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                        <button
-                            class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 green-border">Explore
-                            Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="md:w-1/5 w-1/2 p-3">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
-                    <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                    <div class="px-6 py-4 -mb-2">
-                        <div class="font-bold text-xl mb-2 text-green">Tata Nexon</div>
-                        <p class="text-gray-700 font-bold">
-                            INR 8.25 Lakhs
-                        </p>
-                        <p class="text-gray-700 text-xs">
-                            Ex-Showroom, India
-                        </p>
-                        <p class="text-gray-700 text-xs">
-                            Get On-road price, Noida
-                        </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                        <button
-                            class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 green-border">Explore
-                            Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="md:w-1/5 w-1/2 p-3">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
-                    <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                    <div class="px-6 py-4 -mb-2">
-                        <div class="font-bold text-xl mb-2 text-green">Tata Nexon</div>
-                        <p class="text-gray-700 font-bold">
-                            INR 8.25 Lakhs
-                        </p>
-                        <p class="text-gray-700 text-xs">
-                            Ex-Showroom, India
-                        </p>
-                        <p class="text-gray-700 text-xs">
-                            Get On-road price, Noida
-                        </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                        <button
-                            class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 green-border">Explore
-                            Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="md:w-1/5 w-1/2 p-3">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
-                    <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                    <div class="px-6 py-4 -mb-2">
+                    <div class="px-6 py-">
                         <div class="font-bold text-xl mb-2 text-green">Tata Nexon</div>
                         <p class="text-gray-700 font-bold">
                             INR 8.25 Lakhs
@@ -134,112 +46,7 @@
     </div>
     <div class="container mx-auto flex md:flex-row flex-col items-center">
         <div class="flex flex-wrap shadow-2xl rounded-xl green-border border-2 p-4">
-            <div class="md:w-1/4 w-full p-3">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
-                    <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                    <div class="px-6 py-4">
-                        <div class="font-bold mb-2 text-green">2020 Maruti Baleno</div>
-                        <p class="text-gray-700 font-bold text-sm">
-                            SIGMA 1.2 K12 Manual
-                        </p>
-                        <div class="flex flex-wrap my-2 text-xs text-blue">
-                            <div class="w-1/2 border-2 green-border text-center">
-                                1st Owner
-                            </div>
-                            <div class="w-1/2 border-2 green-border text-center">
-                                Petrol
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap text-xs text-blue">
-                            <div class="w-1/2 border-2 green-border text-center">
-                                41,151 km
-                            </div>
-                            <div class="w-1/2 border-2 green-border text-center">
-                                Non-Accidental
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap m-3 text-xs">
-                        <div class="w-1/2 text-blue">
-                            {{573299 | currency:'INR'}} Lakhs
-                        </div>
-                        <div class="w-1/2 text-green">
-                            {{12753 | currency:'INR'}} / month
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="md:w-1/4 w-full p-3">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
-                    <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                    <div class="px-6 py-4">
-                        <div class="font-bold mb-2 text-green">2020 Maruti Baleno</div>
-                        <p class="text-gray-700 font-bold text-sm">
-                            SIGMA 1.2 K12 Manual
-                        </p>
-                        <div class="flex flex-wrap my-2 text-xs text-blue">
-                            <div class="w-1/2 border-2 green-border text-center">
-                                1st Owner
-                            </div>
-                            <div class="w-1/2 border-2 green-border text-center">
-                                Petrol
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap text-xs text-blue">
-                            <div class="w-1/2 border-2 green-border text-center">
-                                41,151 km
-                            </div>
-                            <div class="w-1/2 border-2 green-border text-center">
-                                Non-Accidental
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap m-3 text-xs">
-                        <div class="w-1/2 text-blue">
-                            {{573299 | currency:'INR'}} Lakhs
-                        </div>
-                        <div class="w-1/2 text-green">
-                            {{12753 | currency:'INR'}} / month
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="md:w-1/4 w-full p-3">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
-                    <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                    <div class="px-6 py-4">
-                        <div class="font-bold mb-2 text-green">2020 Maruti Baleno</div>
-                        <p class="text-gray-700 font-bold text-sm">
-                            SIGMA 1.2 K12 Manual
-                        </p>
-                        <div class="flex flex-wrap my-2 text-xs text-blue">
-                            <div class="w-1/2 border-2 green-border text-center">
-                                1st Owner
-                            </div>
-                            <div class="w-1/2 border-2 green-border text-center">
-                                Petrol
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap text-xs text-blue">
-                            <div class="w-1/2 border-2 green-border text-center">
-                                41,151 km
-                            </div>
-                            <div class="w-1/2 border-2 green-border text-center">
-                                Non-Accidental
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap m-3 text-xs">
-                        <div class="w-1/2 text-blue">
-                            {{573299 | currency:'INR'}} Lakhs
-                        </div>
-                        <div class="w-1/2 text-green">
-                            {{12753 | currency:'INR'}} / month
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="md:w-1/4 w-full p-3">
+            <div *ngFor="let number of [0,1,2,3]" class="md:w-1/4 w-full p-3">
                 <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
                     <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
                     <div class="px-6 py-4">
@@ -289,7 +96,7 @@
     <div class="container mx-auto flex md:flex-row flex-col items-center">
         <div class="shadow-2xl rounded-xl green-border border-2 p-4">
             <div class="flex flex-wrap">
-                <div class="md:w-1/3 w-full p-3">
+                <div *ngFor="let number of [0,1,2]" class="md:w-1/3 w-full p-3">
                     <div class="green-border">
                         <div class="flex flex-wrap">
                             <div class="w-1/2 green-border">
@@ -302,66 +109,12 @@
                         <div class="flex flex-wrap">
                             <div class="w-1/2 text-center text-xs">
                                 <p class="text-blue my-2 font-bold">Hyundai Creta</p>
-                                <p class="text-green">{{10.16 | currency:'INR'}} Lakhs - {{17.87| currency:'INR'}} Lakhs
+                                <p class="text-green">{{10.16 | currency:'INR'}} - {{17.87| currency:'INR'}} Lakhs
                                 </p>
                             </div>
                             <div class="w-1/2 text-center text-xs">
                                 <p class="text-blue my-2 font-bold">Hyundai Creta</p>
-                                <p class="text-green">{{10.16 | currency:'INR'}} Lakhs - {{17.87| currency:'INR'}} Lakhs
-                                </p>
-                            </div>
-                        </div>
-                        <button class="w-full my-4 background-green text-white py-1 rounded">
-                            Hyundai Creta Vs Skoda Kushaq
-                        </button>
-                    </div>
-                </div>
-                <div class="md:w-1/3 w-full p-3">
-                    <div class="green-border">
-                        <div class="flex flex-wrap">
-                            <div class="w-1/2 green-border">
-                                <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                            </div>
-                            <div class="w-1/2 green-border">
-                                <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap">
-                            <div class="w-1/2 text-center text-xs">
-                                <p class="text-blue my-2 font-bold">Hyundai Creta</p>
-                                <p class="text-green">{{10.16 | currency:'INR'}} Lakhs - {{17.87| currency:'INR'}} Lakhs
-                                </p>
-                            </div>
-                            <div class="w-1/2 text-center text-xs">
-                                <p class="text-blue my-2 font-bold">Hyundai Creta</p>
-                                <p class="text-green">{{10.16 | currency:'INR'}} Lakhs - {{17.87| currency:'INR'}} Lakhs
-                                </p>
-                            </div>
-                        </div>
-                        <button class="w-full my-4 background-green text-white py-1 rounded">
-                            Hyundai Creta Vs Skoda Kushaq
-                        </button>
-                    </div>
-                </div>
-                <div class="md:w-1/3 w-full p-3">
-                    <div class="green-border">
-                        <div class="flex flex-wrap">
-                            <div class="w-1/2 green-border">
-                                <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                            </div>
-                            <div class="w-1/2 green-border">
-                                <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
-                            </div>
-                        </div>
-                        <div class="flex flex-wrap">
-                            <div class="w-1/2 text-center text-xs">
-                                <p class="text-blue my-2 font-bold">Hyundai Creta</p>
-                                <p class="text-green">{{10.16 | currency:'INR'}} Lakhs - {{17.87| currency:'INR'}} Lakhs
-                                </p>
-                            </div>
-                            <div class="w-1/2 text-center text-xs">
-                                <p class="text-blue my-2 font-bold">Hyundai Creta</p>
-                                <p class="text-green">{{10.16 | currency:'INR'}} Lakhs - {{17.87| currency:'INR'}} Lakhs
+                                <p class="text-green">{{10.16 | currency:'INR'}} - {{17.87| currency:'INR'}} Lakhs
                                 </p>
                             </div>
                         </div>
