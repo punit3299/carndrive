@@ -1,0 +1,61 @@
+<div class="py-8">
+    <div class="flex flex-wrap">
+        <div class="md:w-4/5 w-full px-16">
+            <p class="text-2xl"><span class="text-green">showing results for : </span> <span class="text-blue">Maruti
+                    Swift</span>
+            </p>
+            <section class="pt-8">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-green mb-4">Similar Cars</h1>
+                <div class="container mx-auto flex md:flex-row flex-col items-center w-full">
+                    <div class="flex flex-wrap shadow-2xl rounded-xl green-border border-2 p-4">
+                        <div *ngFor="let number of [0,1,2,3,4]" class="md:w-1/5 w-1/2 p-3">
+                            <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
+                                <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
+                                <div class="px-6 py-">
+                                    <div class="font-bold text-xl mb-2 text-green">Tata Nexon</div>
+                                    <p class="text-gray-700 font-bold">
+                                        INR 8.25 Lakhs
+                                    </p>
+                                    <p class="text-gray-700 text-xs">
+                                        Ex-Showroom, India
+                                    </p>
+                                    <p class="text-gray-700 text-xs">
+                                        Get On-road price, Noida
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pt-8">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-green mb-4">Showing results in Used Cars</h1>
+                <div class="container mx-auto flex md:flex-row flex-col items-center w-full">
+                    <div class="flex flex-wrap shadow-2xl rounded-xl green-border border-2 p-4">
+                        <div *ngFor="let number of [0,1,2,3,4]" class="md:w-1/5 w-1/2 p-3">
+                            <div class="max-w-sm rounded overflow-hidden shadow-lg green-border">
+                                <img class="w-full" src="/assets/images/car.png" class="rounded-xl mx-auto">
+                                <div class="px-6 py-">
+                                    <div class="font-bold text-xl mb-2 text-green">Tata Nexon</div>
+                                    <p class="text-gray-700 font-bold">
+                                        INR 8.25 Lakhs
+                                    </p>
+                                    <p class="text-gray-700 text-xs">
+                                        Ex-Showroom, India
+                                    </p>
+                                    <p class="text-gray-700 text-xs">
+                                        Get On-road price, Noida
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="w-1/5 px-4 md:block hidden">
+            <img src="assets/images/ad1.png" class="mx-auto py-8">
+        </div>
+    </div>
+
+</div>
