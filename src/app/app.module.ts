@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NewCarsComponent } from './components/home/new-cars/new-cars.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { SearchProductComponent } from './components/search-product/search-product.component';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SearchProductComponent } from './components/search-product/search-produ
     HomeComponent,
     NewCarsComponent,
     AboutUsComponent,
-    SearchProductComponent
+    SearchProductComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,
