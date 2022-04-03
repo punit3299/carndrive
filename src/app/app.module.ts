@@ -10,6 +10,8 @@ import { NewCarsComponent } from './components/home/new-cars/new-cars.component'
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { SearchProductComponent } from './components/search-product/search-product.component';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
+import { SearchByBrandComponent } from './components/search-by-brand/search-by-brand.component';
+import { ProductPageComponent } from './components/product-page/product-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-poli
     NewCarsComponent,
     AboutUsComponent,
     SearchProductComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    SearchByBrandComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,
